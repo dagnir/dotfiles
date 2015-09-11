@@ -10,6 +10,7 @@ set background=dark
 colorscheme solarized
 
 if has("gui_running")
+	set guioptions=-m
 	if has("gui_win32")
 		set guifont=Consolas:h10:cANSI
 	endif
