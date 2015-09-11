@@ -1,6 +1,8 @@
 " Plugins used:
 " - Pathogen
 " - sensible
+" - fugitive
+" - solarized
 " - YouCompleteMe
 execute pathogen#infect()
 
