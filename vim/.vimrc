@@ -20,6 +20,9 @@ if has("gui_running")
 endif
 
 set colorcolumn=80
+set number
+" don't highlight search matches
+set nohlsearch
 
 filetype plugin indent on
 
