@@ -2,7 +2,7 @@
 " - Pathogen
 " - sensible
 " - fugitive
-" - solarized
+" - base16
 " - airline
 " - YouCompleteMe
 execute pathogen#infect()
@@ -10,7 +10,7 @@ execute pathogen#infect()
 " Appearnce
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme base16-default
 
 if has("gui_running")
     set guioptions=-m
